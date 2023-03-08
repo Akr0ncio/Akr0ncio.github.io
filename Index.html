@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilocv.css">
+</head>
+
+<body>
+    <!--Menú-->
+    <div class="header-box">
+        <header>
+            <div class="logo">                
+                <span>Arianna</span>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#formacion" onclick="seleccionar()">FORMACIÓN</a></li>                    
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOnoMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--Sección Inicio-->
+    <section id="inicio" class="inicio">
+        <div class="banner">
+            <div class="imagen">
+                <img src="img/50.jpg" alt="Arianna Sanders">
+            </div>
+            <h1>Arianna Sanders</h1>
+            <h2>Diseñadora Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>                
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Arianna Sanders. </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloribus qui dicta esse assumenda doloremque earum. Iure ipsum neque, esse architecto totam quo, dolores, iusto expedita minus perferendis deleniti amet.</p>
+                <div class="fila">
+            <!--Datos Personales-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                    <ul>
+                        <li><span>Fecha de Nacimiento:</span>
+                            06-05-1992
+                        </li>
+                        <li><span>Lugar de Residencia:</span>
+                            Santa Fe
+                        </li>
+                        <li><span>E-Mail:</span>
+                            arianna.sanders@example.com
+                        </li>
+                        <li><span>Teléfono:</span>
+                            +54 123 6543210
+                        </li>
+                    </ul>
+            </div>
+            <!--Aspectos Favorables-->
+            <div class="col">
+                <h3>Aspectos Favorables</h3>
+                <div class="aspecto">
+                    <ul>
+                        <li>
+                            <span>Buena predisposición para el trabajo en equipo.</span>
+                        </li>
+                        <li>
+                            <span>Excelente capacidad y vocación para aprender.</span>
+                        </li>
+                        <li>
+                            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+                        </li>                      
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Sección Formación-->
+    <section id="formacion" class="formacion">
+        <div class="contenido-seccion">
+            <h2>Formación</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Educación</h3>
+                    <div class="contenedor">
+                        <h4>Formación de grados</h4>
+                        <span class="lugar">Universidad Nacional de Abc</span>
+                        <span class="fecha">2010 - 2016</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, facere aspernatur sed magnam vero quasi odit, quam odio cumque suscipit nulla assumenda labore iusto commodi. Corrupti exercitationem consequuntur sed ipsa?</p>
+                    </div>
+                    <div class="contenedor">
+                        <h4>Maestría</h4>
+                        <span class="lugar">Universidad Nacional de Zyx</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, facere aspernatur sed magnam vero quasi odit, quam odio cumque suscipit nulla assumenda labore iusto commodi. Corrupti exercitationem consequuntur sed ipsa?</p>
+                    </div>
+                    <div class="contenedor">
+                        <h4>Postítulo</h4>
+                        <span class="lugar">Universidad PLÑ</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, facere aspernatur sed magnam vero quasi odit, quam odio cumque suscipit nulla assumenda labore iusto commodi. Corrupti exercitationem consequuntur sed ipsa?</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="contenedor">
+                        <h4>Diseño Web</h4>
+                        <span class="lugar">Compañia A</span>
+                        <span class="fecha">2016 - 2017</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, facere aspernatur sed magnam vero quasi odit, quam odio cumque suscipit nulla assumenda labore iusto commodi. Corrupti exercitationem consequuntur sed ipsa?</p>                        
+                    </div>
+                    <div class="contenedor">
+                        <h4>Desarrollo Front End</h4>
+                        <span class="lugar">Compañia B</span>
+                        <span class="fecha">2017 - 2020</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, facere aspernatur sed magnam vero quasi odit, quam odio cumque suscipit nulla assumenda labore iusto commodi. Corrupti exercitationem consequuntur sed ipsa?</p>                        
+                    </div>
+                    <div class="contenedor">
+                        <h4>Diseño Web</h4>
+                        <span class="lugar">Compañia C</span>
+                        <span class="fecha">2018 - Actualidad</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, facere aspernatur sed magnam vero quasi odit, quam odio cumque suscipit nulla assumenda labore iusto commodi. Corrupti exercitationem consequuntur sed ipsa?</p>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Número de Teléfono" required>
+            <input type="text" placeholder="Correo Electrónico" required>
+            <input type="text" placeholder="Tema de la consulta" required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+            <button>
+                Enviar Mensaje
+                <span class="boton"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <a href="#inicio" class="volver"> 
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="CVscript.js"></script>
+</body>
+</html>

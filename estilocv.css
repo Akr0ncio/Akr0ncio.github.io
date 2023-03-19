@@ -221,7 +221,7 @@ html{
 }
 /*Contacto*/
 .contacto{
-    background: url(Img/FondoInv.jpg);
+    background: url(img/FondoInv.jpg);
     background-size: auto;
     padding: 50px 20px;    
 }
@@ -272,7 +272,7 @@ html{
 }
 /*Footer*/
 footer{
-    background: url(Img/fondo.jpg);
+    background: url(img/fondo.jpg);
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;

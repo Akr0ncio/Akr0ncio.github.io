@@ -59,7 +59,7 @@ html{
 }
 /*Sección Inicio*/
 .inicio{
-    background: url(Img/fondo.jpg);
+    background: url(img/fondo.jpg);
     background-size: auto;
     height: 100vh;
     color: #fff;
@@ -164,7 +164,7 @@ html{
 }
 /*formación*/
 .formacion{
-    background: url(Img/fondo.jpg);
+    background: url(img/fondo.jpg);
     background-size: auto;
     padding: 50px 20px;
     color: #fff;
